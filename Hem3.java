@@ -1,5 +1,5 @@
 import java.util.*;
-public class Hem3 {
+public class Hem3{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements of array: ");
@@ -13,7 +13,7 @@ public class Hem3 {
         arr[i]= sc.nextInt();
 
         }
-        for( int i = 0; i< 3; i++){
+        for( int i = 0; i< size; i++){
            
             sum = sum + (arr[i])^i;
             
